@@ -1,0 +1,46 @@
+
+/**
+ * Countdown Styles
+ */
+.countdown {
+  position: absolute;
+    right: 15px;
+    top: 15px;
+/*  transform: translate(-37px,0%);*/
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  border: 2px solid grey;
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+
+.countdown__icon {
+  position: absolute;
+  top: -4.2px;
+  left: -4.2px;
+  width: 52px;
+  fill: transparent;
+  stroke: #f2e256;
+  stroke-width: 12px;
+  stroke-linecap: round;
+     transform: rotate(86deg);  
+}
+
+.countdown__icon__circle {
+  stroke-dasharray: 375.7873229980469;
+ 
+}
+
+.countdown__number {
+  color: #f2e256;
+  font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+

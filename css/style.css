@@ -1,0 +1,180 @@
+body {
+    background-color: #111;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: Audi_normal;
+    src: url(../font/AudiType-ExtendedBold_03.ttf);
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.audi_title {
+    position: absolute;
+    color: white;
+    font-family: Audi_normal;
+    font-size: 15pt;
+    /*    margin-top: 2.6%;*/
+    line-height: 65px;
+    /*letter-spacing: 0.1em;*/
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.navbar-brand img {
+    height: 25px;
+    margin-left: 20px;
+}
+
+.menu_title {
+    float: right;
+    margin-right: 30px;
+}
+
+
+
+.content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 40px;
+    width: 480px;
+    height: 480px;
+    background-color: red;
+}
+
+.content2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    width: 720px;
+    height: 720px;
+    background-color: red;
+}
+.content3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    width: 720px;
+    height: 720px;
+/*    background-color: red;*/
+}
+.content4 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 80px;
+    width: 550px;
+    height: 550px;
+    background-color: red;
+}
+
+.content_qrcode {
+    position: absolute;
+    left: 43%;
+    transform: translate(-50%, 0);
+    margin-top: 50px;
+    width: 560px;
+    
+}
+
+.title{
+
+    margin-top:600px;
+}
+
+.title_qrcode{
+    margin-top:650px;
+    font-family: Audi_normal;
+}
+.title5{
+
+    margin-top:350px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size: 34pt;
+}
+h2 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size: 28pt;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    
+}
+h4 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    font-size: 27pt;
+    
+}
+
+.btn_1{
+    position: absolute;
+    height: 100px;
+    margin-top:30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.btn_2{
+    position: absolute;
+    height: 100px;
+    margin-top:780px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.btn_3{
+    position: absolute;
+    height: 100px;
+    margin-top:780px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.btn_4{
+    position: absolute;
+    height: 100px;
+    margin-top:720px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.btn_5{
+    position: absolute;
+    height: 100px;
+    margin-top:300px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.qrcode{
+    position: absolute;
+    height: 180px;
+    margin-top:10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
